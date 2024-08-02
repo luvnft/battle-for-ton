@@ -26,6 +26,7 @@ function subscribeOnServerResponses(){
             case "OnQuestActionResponse":
             case "OnSetGameDataResponse":
             case "OnCommunityTaskLoadResponse":
+            case "OnCommunityTransferResponse":
                 console.log(message + " - дата:", receivedData);
 
                 let jsonData = JSON.stringify(receivedData);
